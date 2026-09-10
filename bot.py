@@ -3,7 +3,7 @@ from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 import time
 
 # यहाँ अपना असली टेलीग्राम बॉट टोकन डालें
-TOKEN = "YOUR_BOT_TOKEN_HERE"
+TOKEN = "8138470570:AAHjPRMQwV3_ZRREIkGQL6gF3RTVlfTr56M"
 bot = telebot.TeleBot(TOKEN)
 
 @bot.message_handler(commands=['start', 'help'])
