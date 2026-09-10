@@ -2,12 +2,12 @@ import telebot
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 import time
 
-# 1. यहाँ आपका असली टेलीग्राम बॉट टोकन पहले से सेट है
+# 1. आपका बिल्कुल नया टेलीग्राम बॉट टोकन (जो आपने BotFather से लिया है)
 TOKEN = "8138470570:AAHjPRWQWV3_2RRETKCQL6gPF3RTVtFtR6M"
 bot = telebot.TeleBot(TOKEN)
 
-# 2. यहाँ आपकी असली टेलीग्राम यूजर आईडी सेट है
-ADMIN_ID = 8138470570
+# 2. आपकी असली टेलीग्राम यूजर आईडी (ताकि /panel सिर्फ आपके लिए खुले)
+ADMIN_ID = 8922080909
 
 # वीडियो स्टोर करने के लिए डेटाबेस (शुरुआती सेटअप)
 stored_videos = {}
