@@ -3,11 +3,11 @@ from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 import time
 import sys
 
-# 1. आपका बिल्कुल नया टेलीग्राम बॉट टोकन
-TOKEN = "8138470570:AAHjPRWQWV3_2RRETKCQL6gPF3RTVtFtR6M"
+# 1. आपका बिल्कुल नया टेलीग्राम बॉट टोकन यहाँ सेट कर दिया है
+TOKEN = "8674759146:AAGtZFmQvPePvK6JK7oEyXfcpDbdpKQ7y-w"
 bot = telebot.TeleBot(TOKEN)
 
-# 2. आपकी असली टेलीग्राम यूजर आईडी (Admin)
+# 2. आपकी असली टेलीग्राम यूजर आईडी (Admin ID)
 ADMIN_ID = 8922080909
 
 # वीडियो स्टोर करने के लिए डेटाबेस (शुरुआती सेटअप)
@@ -48,7 +48,7 @@ def admin_panel(message):
     if message.from_user.id == ADMIN_ID:
         panel_text = (
             "⚙️ **VIP बॉट एडमिन पैनल में आपका स्वागत है**\n\n"
-            "यहाँ से आप अपने बॉट में प्रीमियम वीडियो अपलोड Narcissist मैनेज कर सकते हैं.\n\n"
+            "यहाँ से आप अपने बॉट में प्रीमियम वीडियो अपलोड और मैनेज कर सकते हैं.\n\n"
             "👇 वीडियो सेट करने के लिए नीचे दिए गए बटन का उपयोग करें:"
         )
         markup = InlineKeyboardMarkup()
